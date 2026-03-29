@@ -24,10 +24,10 @@ export default function Essencia() {
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Diferencial</h3>
           <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
-            Toda investigação ontopsicológica parte do uso conjunto das três descobertas fundamentais: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>.
+            Toda investigação ontopsicológica parte do uso conjunto das três descobertas da Ontopsicologia: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>. É imprescindível que o psicoterapeuta seja capaz de ler a intencionalidade da <span className="font-semibold">psiqué</span> (ψυχή) daquele que tem diante de si.
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed">
-            Se o psicoterapeuta não é capaz de ler a intencionalidade da <span className="font-semibold">Psiqué</span> (ψυχή) daquele que tem diante de si, o que poderá oferecer de valor? Sem essa precisão, estaríamos separados da verdade que o outro é, do "Eu Sou" que se manifesta.
+            Sem esta precisão, estamos separados da verdade que o outro é = <span className="italic">"eu sou"</span>.
           </p>
         </div>
 
@@ -45,11 +45,11 @@ export default function Essencia() {
             </div>
             <div className="border-l-4 border-gold pl-6">
               <h4 className="font-display text-lg text-black-primary mb-2">Identidade</h4>
-              <p className="font-body text-gray-700">O respeito à digital única de cada ser.</p>
+              <p className="font-body text-gray-700">O respeito absoluto à natureza original de cada indivíduo (<span className="font-semibold">Em Si ôntico</span>).</p>
             </div>
             <div className="border-l-4 border-gold pl-6">
               <h4 className="font-display text-lg text-black-primary mb-2">Ética</h4>
-              <p className="font-body text-gray-700">A conformidade com as leis naturais do desenvolvimento.</p>
+              <p className="font-body text-gray-700">Conformidade com as leis que regem a vida e o desenvolvimento humano.</p>
             </div>
           </div>
         </div>

@@ -7,23 +7,27 @@ export default function Hans() {
         </h2>
 
         <div className="bg-white rounded-lg p-8 md:p-12 shadow-sm border border-gray-200">
-          <h3 className="font-display text-2xl text-gold mb-8">Formação e Atuação</h3>
+          <div className="flex flex-col md:flex-row gap-8 md:gap-12">
+            {/* Foto */}
+            <div className="md:w-1/3 flex-shrink-0">
+              <img
+                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/FotoPerfil_dd4b1be4.jpg"
+                alt="Hans Horstmann"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
 
-          <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
-            <span className="font-semibold">Uma trajetória dedicada à compreensão do humano.</span>
-          </p>
+            {/* Texto */}
+            <div className="md:w-2/3">
+              <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
+                Possui graduação em <span className="font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), atuando por 6 anos no ministério pastoral.
+              </p>
 
-          <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
-            Com uma base sólida construída ao longo de décadas, Hans Horstmann dedica sua trajetória ao auxílio do homem em sua busca por sentido e funcionalidade. Sua jornada iniciou-se com a graduação em <span className="font-semibold">Teologia</span> (1985), seguida por seis anos de atuação no ministério pastoral, experiência que lhe conferiu uma escuta apurada e uma compreensão profunda das questões existenciais humanas.
-          </p>
-
-          <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
-            Buscando a precisão científica para a investigação da psiqué, graduou-se em <span className="font-semibold">Ontopsicologia</span> pela Faculdade Antonio Meneghetti (2019). Desde então, atua como <span className="font-semibold">psicoterapeuta</span>, aplicando as descobertas da Ontopsicologia para conduzir o indivíduo à evidência do seu próprio ser — o <span className="text-gold font-semibold">EIMÍ</span>.
-          </p>
-
-          <p className="font-body text-lg text-gray-700 leading-relaxed">
-            Sua atuação une a experiência de vida à técnica rigorosa, oferecendo um espaço de investigação onde o cliente é convidado a conhecer sua realidade interna e a retomar o comando de sua própria existência.
-          </p>
+              <p className="font-body text-lg text-gray-700 leading-relaxed">
+                Graduação em <span className="font-semibold">Ontopsicologia</span> pela Faculdade Antonio Meneghetti (2019), atuando desde então como <span className="font-semibold">psicoterapeuta</span>.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
