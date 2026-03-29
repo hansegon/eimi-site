@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import Header from '@/components/Header';
-import HomeHero from '@/components/Home';
+import HomeCarousel from '@/components/HomeCarousel';
 import Essencia from '@/components/Essencia';
 import Hans from '@/components/Hans';
 import Servicos from '@/components/Servicos';
@@ -33,8 +33,8 @@ export default function Home() {
       <Header onNavigate={handleNavigate} />
 
       {/* Adiciona padding no topo para compensar o header fixo */}
-      <div ref={homeRef as any}>
-        <HomeHero />
+      <div ref={homeRef as any} className="pt-0">
+        <HomeCarousel />
       </div>
 
       <div ref={essenciaRef as any}>

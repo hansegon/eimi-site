@@ -23,25 +23,29 @@ export default function Header({ onNavigate }: HeaderProps) {
 
   return (
     <>
-      {/* Desktop Header */}
-      <header className="fixed top-0 left-0 right-0 bg-black-primary h-20 z-50 hidden md:flex items-center justify-between px-8 shadow-lg">
-        {/* Logo */}
-        <div className="flex-shrink-0">
+      {/* Desktop Header - Tarja Horizontal */}
+      <header className="fixed top-6 left-0 right-0 bg-black-primary h-56 z-50 flex items-stretch px-0 shadow-lg rounded-b-lg">
+        {/* Logo à Esquerda - Ocupando Toda a Altura */}
+        <div className="flex items-center justify-center w-auto px-8">
           <button
             onClick={() => handleNavigate('home')}
-            className="text-gold font-display text-2xl hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            EIMÍ
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
+              alt="EIMÍ - Centro de Terapia Ontopsicológica"
+              className="h-56 w-auto object-contain"
+            />
           </button>
         </div>
 
-        {/* Desktop Menu */}
-        <nav className="flex gap-8">
+        {/* Menu Horizontal - Parte Superior ao Lado */}
+        <nav className="flex-1 flex items-start justify-start pt-6 px-12 gap-10">
           {menuItems.map((item) => (
             <button
               key={item.id}
               onClick={() => handleNavigate(item.id)}
-              className="text-gold font-body text-sm font-semibold tracking-wider hover:opacity-70 transition-opacity"
+              className="text-gold font-body text-sm font-semibold tracking-wider hover:opacity-70 transition-opacity whitespace-nowrap"
             >
               {item.label}
             </button>
@@ -50,25 +54,31 @@ export default function Header({ onNavigate }: HeaderProps) {
       </header>
 
       {/* Mobile Header */}
-      <header className="fixed top-0 left-0 right-0 bg-black-primary h-16 z-50 md:hidden flex items-center justify-between px-4 shadow-lg">
-        <button
-          onClick={() => handleNavigate('home')}
-          className="text-gold font-display text-xl"
-        >
-          EIMÍ
-        </button>
+      <header className="fixed top-4 left-0 right-0 bg-black-primary z-50 hidden flex-col items-center justify-center py-4 shadow-lg rounded-b-lg">
+        <div className="flex items-center justify-between w-full px-4 mb-2">
+          <button
+            onClick={() => handleNavigate('home')}
+            className="hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
+              alt="EIMÍ - Centro de Terapia Ontopsicológica"
+              className="h-32 w-auto object-contain"
+            />
+          </button>
 
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="text-gold"
-        >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-        </button>
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="text-gold hidden"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
       </header>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <nav className="fixed top-16 left-0 right-0 bg-black-primary md:hidden z-40 flex flex-col gap-4 p-6">
+        <nav className="fixed top-40 left-0 right-0 bg-black-primary hidden z-40 flex-col gap-4 p-6">
           {menuItems.map((item) => (
             <button
               key={item.id}

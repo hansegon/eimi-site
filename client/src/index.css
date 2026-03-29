@@ -155,7 +155,7 @@
   }
 
   .bg-black-primary {
-    @apply bg-[#000000];
+    @apply bg-[#191919];
   }
 
   .bg-gold {
