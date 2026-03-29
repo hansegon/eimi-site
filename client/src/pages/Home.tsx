@@ -1,25 +1,57 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
+import { useRef } from 'react';
+import Header from '@/components/Header';
+import HomeHero from '@/components/Home';
+import Essencia from '@/components/Essencia';
+import Hans from '@/components/Hans';
+import Servicos from '@/components/Servicos';
+import Contato from '@/components/Contato';
 
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
- */
 export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
+  const homeRef = useRef<HTMLDivElement>(null);
+  const essenciaRef = useRef<HTMLDivElement>(null);
+  const hansRef = useRef<HTMLDivElement>(null);
+  const servicosRef = useRef<HTMLDivElement>(null);
+  const contatoRef = useRef<HTMLDivElement>(null);
+
+  const handleNavigate = (section: string) => {
+    const refs: { [key: string]: React.RefObject<HTMLDivElement | null> } = {
+      home: homeRef,
+      essencia: essenciaRef,
+      hans: hansRef,
+      servicos: servicosRef,
+      contato: contatoRef,
+    };
+
+    const ref = refs[section];
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="w-full">
+      <Header onNavigate={handleNavigate} />
+
+      {/* Adiciona padding no topo para compensar o header fixo */}
+      <div ref={homeRef as any}>
+        <HomeHero />
+      </div>
+
+      <div ref={essenciaRef as any}>
+        <Essencia />
+      </div>
+
+      <div ref={hansRef as any}>
+        <Hans />
+      </div>
+
+      <div ref={servicosRef as any}>
+        <Servicos />
+      </div>
+
+      <div ref={contatoRef as any}>
+        <Contato />
+      </div>
     </div>
   );
 }
