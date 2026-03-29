@@ -3,20 +3,20 @@ export default function Essencia() {
     <section id="essencia" className="w-full py-20 bg-white">
       <div className="container max-w-4xl">
         <h2 className="font-display text-4xl text-black-primary mb-12 text-center">
-          NOSSA ESSÊNCIA
+          ESSÊNCIA
         </h2>
 
         {/* Propósito */}
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Propósito</h3>
           <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
-            Auxiliar o homem no percurso de autoconhecimento. O problema substancial do humano é que ele não conhece a si mesmo. Se não conhece a sua realidade interna, como pode pretender conhecer a realidade que mede?
+            Auxiliar o humano que decidiu por um percurso de autoconhecimento. Afinal, o problema substancial do homem é que ele não conhece a si mesmo. Se não sabe a sua realidade interna, como pode pretender conhecer a realidade que mede?
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed italic mb-4">
-            "Não é verdade que o homem é como se pensa; ele é como é, mas depois paga por como se pensa" — Antonio Meneghetti
+            "Não é verdade que o homem é como se pensa; ele é como é, mas depois paga por como se pensa" (MENEGHETTI, A).
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed">
-            Nosso objetivo é a plena consciência de quem se verdadeiramente é: a evidência do <span className="text-gold font-semibold">EIMÍ</span> (εἰμί) — o "Eu Sou". Primeiro ser, para então saber, e por fim poder fazer.
+            Nosso objetivo é que o homem chegue à plena consciência de quem ele verdadeiramente é, à evidência do "eu sou" (<span className="text-gold font-semibold">eimí</span>, em grego).
           </p>
         </div>
 
