@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/geniobrasiliano_067f4aba.jpg';
+const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/QuadroQuatroIlhas_2c2fc080.jpeg';
 
 interface CarouselPage {
   id: number;
@@ -55,12 +55,12 @@ export default function HomeCarousel() {
       style={{
         backgroundImage: `url(${HERO_IMAGE})`,
         backgroundAttachment: 'fixed',
-        backgroundSize: '200%',
-        backgroundPosition: currentPageData.backgroundPosition,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}
     >
       {/* Overlay suave */}
-      <div className="absolute inset-0 bg-black/5"></div>
+      <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Indicadores (Bolinhas) - Parte Inferior Centro */}
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-40 flex gap-4">
