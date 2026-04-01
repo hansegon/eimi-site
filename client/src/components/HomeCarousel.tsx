@@ -7,7 +7,7 @@ interface CarouselPage {
   id: number;
   title: string;
   subtitle: string;
-  backgroundPosition: string;
+  backgroundPositionY: string;
 }
 
 const pages: CarouselPage[] = [
@@ -15,19 +15,19 @@ const pages: CarouselPage[] = [
     id: 1,
     title: 'PSICOTERAPIA INDIVIDUAL',
     subtitle: 'Reencontro do verdadeiro ôntico pessoal',
-    backgroundPosition: 'center',
+    backgroundPositionY: 'center',
   },
   {
     id: 2,
     title: 'CONSULTORIA DE AUTENTICAÇÃO',
     subtitle: 'Recuperação da inteligência da alma em sentido laico e racional',
-    backgroundPosition: 'left center',
+    backgroundPositionY: 'center -15%',
   },
   {
     id: 3,
     title: 'PSICOSSOMÁTICA',
     subtitle: 'Causa psíquica e efeito somático',
-    backgroundPosition: 'right center',
+    backgroundPositionY: 'center -30%',
   },
 ];
 
@@ -51,12 +51,12 @@ export default function HomeCarousel() {
   return (
     <section
       id="home"
-      className="w-full h-screen bg-no-repeat relative pt-20 md:pt-0 overflow-hidden"
+      className="w-full h-screen bg-no-repeat relative pt-20 md:pt-0 overflow-hidden transition-all duration-700"
       style={{
         backgroundImage: `url(${HERO_IMAGE})`,
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: currentPageData.backgroundPositionY,
       }}
     >
       {/* Overlay suave */}
