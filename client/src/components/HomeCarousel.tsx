@@ -21,13 +21,13 @@ const pages: CarouselPage[] = [
     id: 2,
     title: 'CONSULTORIA DE AUTENTICAÇÃO',
     subtitle: 'Recuperação da inteligência da alma em sentido laico e racional',
-    backgroundPositionY: 'center -15%',
+    backgroundPositionY: 'center -2%',
   },
   {
     id: 3,
     title: 'PSICOSSOMÁTICA',
     subtitle: 'Causa psíquica e efeito somático',
-    backgroundPositionY: 'center -30%',
+    backgroundPositionY: 'center -15%',
   },
 ];
 

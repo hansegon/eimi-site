@@ -16,9 +16,8 @@ export default function Contato() {
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
                 alt="EIMÍ"
-                className="h-32 w-auto object-contain mb-4"
+                className="h-48 w-auto object-contain mb-4"
               />
-              <p className="font-body text-sm text-gold font-semibold">CENTRO DE TERAPIA ONTOPSICOLÓGICA</p>
             </div>
 
             {/* Lista de Contato */}
@@ -65,7 +64,7 @@ export default function Contato() {
           {/* Lado Direito - Mapa */}
           <div className="rounded-lg overflow-hidden shadow-lg h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3467890123456!2d-49.2769!3d-26.3047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4a8e8e8e8e9%3A0x1234567890abcdef!2sRua%20Aub%C3%A9%2C%20777%2F12%20-%20Boa%20Vista%2C%20Joinville%20-%20SC%2089205-000!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5!2d-49.277!3d-26.305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4a8e8e8e8e9%3A0x1234567890abcdef!2sRua%20Aub%C3%A9%2C%20777%2F12%20-%20Boa%20Vista%2C%20Joinville%20-%20SC%2089205-000!5e0!3m2!1spt-BR!2sbr!4v1704067200000"
               width="100%"
               height="100%"
               style={{ border: 0 }}

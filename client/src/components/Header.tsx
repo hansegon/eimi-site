@@ -24,7 +24,7 @@ export default function Header({ onNavigate }: HeaderProps) {
   return (
     <>
       {/* Desktop Header - Tarja Horizontal */}
-      <header className="fixed top-6 left-0 right-0 bg-black-primary h-56 z-50 flex items-stretch px-0 shadow-lg rounded-b-lg">
+      <header className="fixed top-6 left-0 right-0 bg-black-primary h-56 z-50 flex items-stretch px-0 shadow-lg">
         {/* Logo à Esquerda - Ocupando Toda a Altura */}
         <div className="flex items-center justify-center w-auto px-8">
           <button
