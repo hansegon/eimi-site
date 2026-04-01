@@ -40,12 +40,12 @@ export default function Header({ onNavigate }: HeaderProps) {
         </div>
 
         {/* Menu Horizontal - Parte Superior ao Lado */}
-        <nav className="flex-1 flex items-start justify-start pt-6 px-12 gap-10">
+        <nav className="flex-1 flex items-start justify-end pt-6 px-12 gap-10">
           {menuItems.map((item) => (
             <button
               key={item.id}
               onClick={() => handleNavigate(item.id)}
-              className="text-gold font-body text-sm font-semibold tracking-wider hover:opacity-70 transition-opacity whitespace-nowrap"
+              className="text-gold font-cormorant text-sm tracking-wider hover:opacity-70 transition-opacity whitespace-nowrap"
             >
               {item.label}
             </button>

@@ -146,6 +146,11 @@
     font-family: 'Montserrat', sans-serif;
   }
 
+  .font-cormorant {
+    @apply font-serif text-base font-normal;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
   .text-gold {
     @apply text-[#D4AF37];
   }
