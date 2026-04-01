@@ -34,7 +34,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             <img
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
               alt="EIMÍ - Centro de Terapia Ontopsicológica"
-              className="h-56 w-auto object-contain"
+              className="h-48 w-auto object-contain"
             />
           </button>
         </div>
