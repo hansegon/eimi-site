@@ -24,17 +24,17 @@ export default function Header({ onNavigate }: HeaderProps) {
   return (
     <>
       {/* Desktop Header - Tarja Horizontal */}
-      <header className="fixed top-6 left-0 right-0 bg-black-primary h-56 z-50 flex items-stretch px-0 shadow-lg">
+      <header className="fixed top-6 left-0 right-0 bg-black-primary h-32 z-50 flex items-stretch px-0 shadow-lg">
         {/* Logo à Esquerda - Ocupando Toda a Altura */}
-        <div className="flex items-center justify-center w-auto px-8">
+        <div className="flex items-center px-8">
           <button
             onClick={() => handleNavigate('home')}
             className="hover:opacity-80 transition-opacity"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/eimi_logo_completa_0316670c.png"
               alt="EIMÍ - Centro de Terapia Ontopsicológica"
-              className="h-48 w-auto object-contain"
+              className="h-28 w-auto object-contain"
             />
           </button>
         </div>
