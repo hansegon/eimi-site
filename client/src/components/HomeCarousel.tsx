@@ -12,22 +12,22 @@ interface CarouselPage {
 
 const pages: CarouselPage[] = [
   {
-    id: 2,
-    title: 'CONSULTORIA DE AUTENTICAÇÃO',
-    subtitle: 'Recuperação da inteligência da alma em sentido laico e racional',
-    backgroundPositionY: 'center -2%',
-  },
-  {
     id: 1,
     title: 'PSICOTERAPIA INDIVIDUAL',
     subtitle: 'Reencontro do verdadeiro ôntico pessoal',
-    backgroundPositionY: 'center -20%',
+    backgroundPositionY: 'center -2%',
+  },
+  {
+    id: 2,
+    title: 'CONSULTORIA DE AUTENTICAÇÃO',
+    subtitle: 'Recuperação da inteligência da alma em sentido laico e racional',
+    backgroundPositionY: 'center +30%',
   },
   {
     id: 3,
     title: 'PSICOSSOMÁTICA',
     subtitle: 'Causa psíquica e efeito somático',
-    backgroundPositionY: 'center -12%',
+    backgroundPositionY: 'center +50%',
   },
 ];
 
