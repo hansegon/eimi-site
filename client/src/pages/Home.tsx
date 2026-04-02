@@ -24,7 +24,12 @@ export default function Home() {
 
     const ref = refs[section];
     if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+      const headerHeight = 140;
+      const elementPosition = ref.current.getBoundingClientRect().top + window.scrollY - headerHeight;
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth',
+      });
     }
   };
 

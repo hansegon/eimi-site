@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, MessageCircle, Mail } from 'lucide-react';
 
 export default function Contato() {
   return (
@@ -33,12 +33,14 @@ export default function Contato() {
                 </div>
               </div>
 
-              {/* Telefone */}
+              {/* WhatsApp */}
               <div className="flex gap-4">
-                <Phone className="text-gold flex-shrink-0 mt-1" size={24} />
+                <MessageCircle className="text-gold flex-shrink-0 mt-1" size={24} />
                 <div>
                   <a
-                    href="tel:+5547992061060"
+                    href="https://wa.me/5547992061060"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="font-body text-gold hover:opacity-80 transition-opacity"
                   >
                     (55 47) 992 061 060
@@ -64,7 +66,7 @@ export default function Contato() {
           {/* Lado Direito - Mapa */}
           <div className="rounded-lg overflow-hidden shadow-lg h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.5!2d-49.277!3d-26.305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4a8e8e8e8e9%3A0x1234567890abcdef!2sRua%20Aub%C3%A9%2C%20777%2F12%20-%20Boa%20Vista%2C%20Joinville%20-%20SC%2089205-000!5e0!3m2!1spt-BR!2sbr!4v1704067200000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.8!2d-49.2770!3d-26.3050!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4a8e8e8e8e9%3A0x1234567890abcdef!2sRua%20Aub%C3%A9%2C%20777%20-%20Boa%20Vista%2C%20Joinville%20-%20SC%2089205-000%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1704067200000"
               width="100%"
               height="100%"
               style={{ border: 0 }}
