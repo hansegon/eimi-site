@@ -4,7 +4,7 @@ export default function Contato() {
   return (
     <section id="contato" className="w-full py-20 bg-black-primary">
       <div className="container max-w-6xl">
-        <h2 className="font-display text-4xl text-gold mb-16 text-center">
+        <h2 className="font-display text-3xl text-gold mb-16 text-center">
           CONTATO
         </h2>
 
@@ -51,10 +51,10 @@ export default function Contato() {
                 <Mail className="text-gold flex-shrink-0 mt-1" size={24} />
                 <div>
                   <a
-                    href="mailto:eimi.psicoterapia@eimipsicoterapia.com.br"
+                    href="mailto:eimi@eimi-psicoterapia.com.br"
                     className="font-body text-gold hover:opacity-80 transition-opacity"
                   >
-                    eimi.psicoterapia@eimipsicoterapia.com.br
+                    eimi@eimi-psicoterapia.com.br
                   </a>
                 </div>
               </div>

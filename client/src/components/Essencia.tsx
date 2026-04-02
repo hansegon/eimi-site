@@ -2,7 +2,7 @@ export default function Essencia() {
   return (
     <section id="essencia" className="w-full py-20 bg-white">
       <div className="container max-w-4xl">
-        <h2 className="font-display text-4xl text-black-primary mb-12 text-center">
+        <h2 className="font-display text-3xl text-black-primary mb-12 text-center">
           ESSÊNCIA
         </h2>
 
