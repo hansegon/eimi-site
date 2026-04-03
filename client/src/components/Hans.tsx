@@ -24,7 +24,7 @@ export default function Hans() {
               </p>
 
               <p className="font-body text-lg text-gray-700 leading-relaxed">
-                Graduação em <span className="font-semibold">Ontopsicologia</span> pela Faculdade Antonio Meneghetti (2019), atuando desde então como <span className="font-semibold">psicoterapeuta</span>.
+                Graduação em <span className="font-semibold">Ontopsicologia</span> pela Antonio Meneghetti Faculdade (2019), atuando desde então como <span className="font-semibold">psicoterapeuta</span>.
               </p>
             </div>
           </div>
