@@ -16,7 +16,7 @@ export default function Contato() {
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
                 alt="EIMÍ"
-                className="h-48 w-auto object-contain mb-4"
+                className="h-56 w-auto object-contain mb-4"
               />
             </div>
 
