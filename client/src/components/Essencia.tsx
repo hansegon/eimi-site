@@ -10,7 +10,7 @@ export default function Essencia() {
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Propósito</h3>
           <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
-            Auxiliar o humano que decidiu por um percurso de autoconhecimento. Afinal, o problema substancial do homem é que ele não conhece a si mesmo. Se não sabe a sua realidade interna, como pode pretender conhecer a realidade que mede?
+            Auxiliar o humano que decidiu por um percurso de autoconhecimento. Afinal, o problema substancial do homem é que ele não conhece a si mesmo. Se não sabe a sua realidade interior, como pode pretender conhecer a realidade que mede?
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed italic mb-4">
             "Não é verdade que o homem é como se pensa; ele é como é, mas depois paga por como se pensa" (MENEGHETTI, A).
@@ -24,10 +24,10 @@ export default function Essencia() {
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Diferencial</h3>
           <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
-            Toda investigação ontopsicológica parte do uso conjunto das três descobertas da Ontopsicologia: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>. É imprescindível que o psicoterapeuta seja capaz de ler a intencionalidade da <span className="font-semibold">psiqué</span> (ψυχή) daquele que tem diante de si.
+            Toda investigação ontopsicológica parte do uso conjunto das três descobertas da Ontopsicologia: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>. É imprescindível que o psicoterapeuta seja capaz de ler a intencionalidade da <span className="font-semibold">psiqúe</span> (ψυχή) daquele que ele tem diante de si.
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed">
-            Sem esta precisão, estamos separados da verdade que o outro é = <span className="italic">"eu sou"</span>.
+            Sem esta precisão, o psicoterapeuta permanece separado da verdade que o outro é......, está dissociado do <span className="italic">"eu sou"</span> do cliente.
           </p>
         </div>
 

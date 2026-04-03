@@ -26,7 +26,7 @@ export default function Contato() {
               <div className="flex gap-4">
                 <MapPin className="text-gold flex-shrink-0 mt-1" size={24} />
                 <div>
-                  <p className="font-body text-gray-300 leading-relaxed">
+                  <p className="font-body text-gold leading-relaxed">
                     Rua Aubé, 777/12 - Boa Vista<br />
                     89205-000 Joinville - SC
                   </p>

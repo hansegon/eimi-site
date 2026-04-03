@@ -24,7 +24,7 @@ export default function Home() {
 
     const ref = refs[section];
     if (ref && ref.current) {
-      const headerHeight = 140;
+      const headerHeight = 160;
       const elementPosition = ref.current.getBoundingClientRect().top + window.scrollY - headerHeight;
       window.scrollTo({
         top: elementPosition,

@@ -27,7 +27,7 @@ export default function Servicos() {
           <div className="border-l-4 border-gold pl-6">
             <h3 className="font-display text-2xl text-gold mb-3">Psicossomática</h3>
             <p className="font-body text-lg text-gray-700 leading-relaxed italic">
-              "Causa psíquica com efeito somático"
+              "Causa psíquica com efeito somático. O corpo é o livro no qual a alma escreve os erros que o homem comete contra si mesmo"
             </p>
           </div>
         </div>
