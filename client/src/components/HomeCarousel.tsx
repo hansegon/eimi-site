@@ -111,7 +111,7 @@ export default function HomeCarousel() {
           {currentPageData.title}
         </h2>
         <p
-          className="text-sm font-light transition-all duration-500"
+          className="text-sm font-light transition-all duration-500 italic"
           style={{
             color: '#D4AF37',
             textShadow: '1px 1px 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.5)',
