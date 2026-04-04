@@ -167,6 +167,10 @@
     @apply bg-[#D4AF37];
   }
 
+  .border-gold {
+    @apply border-[#D4AF37];
+  }
+
   /**
    * Custom container utility that centers content and adds responsive padding.
    *
