@@ -3,7 +3,7 @@ export default function Hans() {
     <section id="hans" className="w-full py-20 bg-gray-50">
       <div className="container max-w-4xl">
         <h2 className="font-display text-3xl text-black-primary mb-12 text-center">
-          HANS HORSTMANN
+          HANS&nbsp;&nbsp;&nbsp;HORSTMANN
         </h2>
 
         <div className="bg-white rounded-lg p-8 md:p-12 shadow-sm border border-gray-200">
