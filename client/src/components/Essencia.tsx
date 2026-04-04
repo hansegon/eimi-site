@@ -6,6 +6,17 @@ export default function Essencia() {
           ESSÊNCIA
         </h2>
 
+        {/* Eimí */}
+        <div className="mb-16">
+          <h3 className="font-display text-2xl text-gold mb-6">Eimí</h3>
+          <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
+            O nome "Eimí" (<span className="text-gold font-semibold">εἰμί</span> em grego) é a conjugação do verbo "ser" na primeira pessoa do singular no presente do indicativo, cuja tradução literal é "eu sou".
+          </p>
+          <p className="font-body text-lg text-gray-700 leading-relaxed italic">
+            "Quem sou? Aquele que sou. Não me construí, não nasci de mim mesmo: fui posto. Mas, a partir desse nascimento, eu sou" (MENEGHETTI, A).
+          </p>
+        </div>
+
         {/* Propósito */}
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Propósito</h3>
@@ -16,7 +27,7 @@ export default function Essencia() {
             "Não é verdade que o homem é como se pensa; ele é como é, mas depois paga por como se pensa" (MENEGHETTI, A).
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed">
-            Nosso objetivo é que o homem chegue à plena consciência de quem ele verdadeiramente é, à evidência do "eu sou" (<span className="text-gold font-semibold">eimí</span>, em grego).
+            Nosso objetivo é que o homem chegue à plena consciência de quem ele verdadeiramente é, à evidência do "eu sou" (<span className="text-gold font-semibold">εἰμί</span> em grego). Esta é a consciência ôntica.
           </p>
         </div>
 
@@ -24,7 +35,7 @@ export default function Essencia() {
         <div className="mb-16">
           <h3 className="font-display text-2xl text-gold mb-6">Diferencial</h3>
           <p className="font-body text-lg text-gray-700 leading-relaxed mb-4">
-            Toda investigação ontopsicológica parte do uso conjunto das três descobertas da Ontopsicologia: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>. É imprescindível que o psicoterapeuta seja capaz de ler a intencionalidade da <span className="font-semibold">psiqúe</span> (ψυχή) daquele que ele tem diante de si.
+            Toda investigação ontopsicológica parte do uso conjunto das três descobertas da Ontopsicologia: o <span className="font-semibold">Em Si ôntico</span>, o <span className="font-semibold">campo semântico</span> e o <span className="font-semibold">monitor de deflexão</span>. É imprescindível que o psicoterapeuta seja capaz de ler a intencionalidade da <span className="font-semibold">psique</span> (<span className="text-gold font-semibold">ψυχή</span> em grego) daquele que ele tem diante de si.
           </p>
           <p className="font-body text-lg text-gray-700 leading-relaxed">
             Sem esta precisão, o psicoterapeuta permanece separado da verdade que o outro é......, está dissociado do <span className="italic">"eu sou"</span> do cliente.
