@@ -1,4 +1,4 @@
-import { MapPin, MessageCircle, Mail } from 'lucide-react';
+import { MapPin, MessageCircle, Mail, Instagram } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
 
@@ -107,6 +107,21 @@ export default function Contato() {
                   </a>
                 </div>
               </div>
+
+              {/* Instagram */}
+              <div className="flex items-center gap-4">
+                <Instagram className="text-gold flex-shrink-0" size={24} />
+                <div>
+                  <a
+                    href="https://instagram.com/eimi_psicoterapia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body text-gold hover:opacity-80 transition-opacity"
+                  >
+                    @eimi_psicoterapia
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -125,7 +140,7 @@ export default function Contato() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-gray-900 border-2 border-gold rounded text-white placeholder-gray-500 focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-2 bg-black-primary border-2 border-gold rounded text-gold placeholder-gold/60 focus:outline-none focus:border-gold transition-colors"
                   placeholder="Seu nome"
                 />
               </div>
@@ -142,7 +157,7 @@ export default function Contato() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-gray-900 border-2 border-gold rounded text-white placeholder-gray-500 focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-2 bg-black-primary border-2 border-gold rounded text-gold placeholder-gold/60 focus:outline-none focus:border-gold transition-colors"
                   placeholder="seu@email.com"
                 />
               </div>
@@ -159,7 +174,7 @@ export default function Contato() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 bg-gray-900 border-2 border-gold rounded text-white placeholder-gray-500 focus:outline-none focus:border-gold transition-colors"
+                  className="w-full px-4 py-2 bg-black-primary border-2 border-gold rounded text-gold placeholder-gold/60 focus:outline-none focus:border-gold transition-colors"
                   placeholder="(55) 99999-9999"
                 />
               </div>
@@ -176,7 +191,7 @@ export default function Contato() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-2 bg-gray-900 border-2 border-gold rounded text-white placeholder-gray-500 focus:outline-none focus:border-gold transition-colors resize-none"
+                  className="w-full px-4 py-2 bg-black-primary border-2 border-gold rounded text-gold placeholder-gold/60 focus:outline-none focus:border-gold transition-colors resize-none"
                   placeholder="Sua mensagem..."
                 />
               </div>

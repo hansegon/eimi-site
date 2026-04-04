@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Instagram } from 'lucide-react';
 
 interface HeaderProps {
   onNavigate: (section: string) => void;
@@ -50,6 +50,15 @@ export default function Header({ onNavigate }: HeaderProps) {
               {item.label}
             </button>
           ))}
+          {/* Instagram Link */}
+          <a
+            href="https://instagram.com/eimi_psicoterapia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gold hover:opacity-70 transition-opacity flex items-center"
+          >
+            <Instagram size={20} />
+          </a>
         </nav>
       </header>
 
