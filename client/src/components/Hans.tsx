@@ -20,11 +20,11 @@ export default function Hans() {
             {/* Texto */}
             <div className="md:w-2/3">
               <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
-                Possui graduação em <span className="font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), atuando por 6 anos no ministério pastoral.
+                Possui graduação em <span className="font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), tendo atuado por 6 anos no ministério pastoral.
               </p>
 
               <p className="font-body text-lg text-gray-700 leading-relaxed">
-                Graduação em <span className="font-semibold">Ontopsicologia</span> pela Antonio Meneghetti Faculdade (2019), atuando desde então como <span className="font-semibold">psicoterapeuta</span>.
+                Graduação em <span className="font-semibold">Ontopsicologia</span> pela Antonio Meneghetti Faculdade (2019), atuando desde então como psicoterapeuta.
               </p>
             </div>
           </div>
