@@ -1,6 +1,19 @@
 import { MessageCircle, ArrowRight } from 'lucide-react';
+import { useEffect } from 'react';
 
 export default function PaisEFilhos() {
+  useEffect(() => {
+    // Adicionar meta tag noindex para manter a página oculta de buscas orgânicas
+    const metaNoindex = document.createElement('meta');
+    metaNoindex.name = 'robots';
+    metaNoindex.content = 'noindex, nofollow';
+    document.head.appendChild(metaNoindex);
+
+    return () => {
+      document.head.removeChild(metaNoindex);
+    };
+  }, []);
+
   const whatsappLink = "https://wa.me/5547992061060?text=Olá%20Hans,%20gostaria%20de%20saber%20mais%20sobre%20a%20abordagem%20para%20pais%20e%20filhos.";
 
   return (
