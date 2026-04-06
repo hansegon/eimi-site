@@ -6,12 +6,12 @@ export default function PaisEFilhos() {
   return (
     <div className="w-full min-h-screen bg-black-primary">
       {/* Header Minimalista */}
-      <header className="w-full bg-black-primary border-b border-gold/20 py-6">
-        <div className="container max-w-4xl">
+      <header className="w-full bg-black-primary border-b border-gold/20 py-8">
+        <div className="container max-w-4xl flex justify-center">
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
             alt="EIMÍ"
-            className="h-16 w-auto object-contain"
+            className="h-64 w-auto object-contain"
           />
         </div>
       </header>
@@ -26,73 +26,89 @@ export default function PaisEFilhos() {
               Seu filho está tendo dificuldades?
             </h1>
             
-            <p className="font-body text-lg text-gray-300 mb-6 leading-relaxed">
-              Você já tentou tudo: aulas de reforço, psicólogos, medicações... mas nada parece funcionar de verdade?
+            <p className="font-body text-lg text-gold mb-6 leading-relaxed">
+              A solução pode estar em você.
             </p>
 
-            <p className="font-body text-lg text-gray-300 mb-8 leading-relaxed">
-              A verdade que poucos falam é que <span className="text-gold font-semibold">as dificuldades da criança frequentemente refletem algo que está acontecendo no mundo adulto</span>.
+            <p className="font-body text-lg text-gray-300 leading-relaxed">
+              Frequentemente a dificuldade da criança é apenas um sintoma de uma causa que permanece oculta. Quando este é o caso, com a Psicoterapia Ontopsicológica tratamos a causa real do problema: a dinâmica invisível, mas atuante do adulto de maior referência afetiva.
             </p>
           </section>
 
           {/* The Real Problem */}
-          <section className="mb-16 bg-gray-900/50 border border-gold/20 rounded-lg p-8">
-            <h2 className="font-display text-2xl text-gold mb-6">
-              O Problema Real
+          <section className="mb-16">
+            <h2 className="font-display text-2xl text-gold mb-8">
+              O Mal Não Nasce na Criança
             </h2>
 
-            <div className="space-y-6">
-              <div>
-                <p className="font-body text-gray-300 leading-relaxed mb-4">
-                  Quando uma criança não aprende, não se comporta bem ou está emocionalmente instável, geralmente <span className="text-gold">não é um problema da criança</span>.
-                </p>
-                <p className="font-body text-gray-300 leading-relaxed">
-                  É um sinal de que algo precisa ser resolvido no <span className="text-gold font-semibold">adulto de referência</span> — aquele que a criança mais observa e imita.
-                </p>
-              </div>
+            <div className="bg-gray-900/50 border border-gold/20 rounded-lg p-8">
+              <p className="font-body text-gray-300 leading-relaxed mb-6">
+                A experiência clínica demonstra que as dificuldades de aprendizado, comportamento e diagnósticos como o TDAH são, frequentemente, reflexos inconscientes do ambiente em que vivem, e da postura do adulto de maior referência afetiva.
+              </p>
 
-              <div className="border-t border-gold/20 pt-6">
-                <p className="font-body text-gray-300 leading-relaxed">
-                  Quando o adulto resolve seus conflitos internos, suas inseguranças e suas contradições, <span className="text-gold font-semibold">a criança naturalmente muda</span>.
-                </p>
-              </div>
+              <p className="font-body text-gray-300 leading-relaxed">
+                A criança é como um espelho da harmonia ou do conflito de quem a educa. Você já parou para pensar que aquilo que você vê como um "problema" no seu filho pode ser, na verdade, um reflexo de algo que está acontecendo em você?
+              </p>
             </div>
           </section>
 
-          {/* The Approach */}
+          {/* Why Conventional Therapy Often Fails */}
           <section className="mb-16">
             <h2 className="font-display text-2xl text-gold mb-8">
-              A Abordagem Ontopsicológica
+              Por Que a Terapia Convencional Muitas Vezes Falha
             </h2>
 
-            <div className="space-y-6">
-              <div className="border-l-4 border-gold pl-6">
-                <h3 className="font-display text-lg text-gold mb-2">
-                  Não tratamos apenas a criança
-                </h3>
-                <p className="font-body text-gray-300 leading-relaxed">
-                  Trabalhamos com você, o adulto, para identificar e resolver os padrões inconscientes que estão afetando seu filho.
-                </p>
-              </div>
+            <div className="bg-gray-900/50 border border-gold/20 rounded-lg p-8">
+              <p className="font-body text-white leading-relaxed mb-4 italic">
+                "Tratar apenas a criança é como podar as folhas de uma árvore cuja raiz está doente."
+              </p>
+              <p className="font-body text-sm text-gray-400 mb-4">
+                — Dr. Alécio Vidor
+              </p>
 
-              <div className="border-l-4 border-gold pl-6">
-                <h3 className="font-display text-lg text-gold mb-2">
-                  Focamos na causa, não no sintoma
-                </h3>
-                <p className="font-body text-gray-300 leading-relaxed">
-                  Em vez de tentar "corrigir" o comportamento da criança, descobrimos e tratamos a raiz do problema.
-                </p>
-              </div>
-
-              <div className="border-l-4 border-gold pl-6">
-                <h3 className="font-display text-lg text-gold mb-2">
-                  Resultados reais e duradouros
-                </h3>
-                <p className="font-body text-gray-300 leading-relaxed">
-                  Quando o adulto se transforma, a criança se transforma naturalmente. Não é mágica — é ciência.
-                </p>
-              </div>
+              <p className="font-body text-gray-300 leading-relaxed">
+                Se o adulto não passa por um processo autêntico de metanóia — mudança de mentalidade e comportamento — a criança permanece presa a padrões que bloqueiam sua inteligência e matam sua personalidade.
+              </p>
             </div>
+          </section>
+
+          {/* Our Approach */}
+          <section className="mb-16">
+            <h2 className="font-display text-2xl text-gold mb-8">
+              Nossa Abordagem
+            </h2>
+
+            <p className="font-body text-gold leading-relaxed mb-6">
+              Tratamos o filho através do adulto ao qual ele está mais ligado afetivamente.
+            </p>
+
+            <p className="font-body text-gray-300 leading-relaxed mb-6">
+              Na EIMÍ, a partir do método da ciência ontopsicológica, buscamos identificar a dinâmica específica que está afetando o desenvolvimento do seu filho (quando este é o caso). Quando o adulto de maior referência afetiva entende e muda o seu comportamento, ele possibilita que a criança recupere a sua autenticidade e capacidade natural de aprender e evoluir.
+            </p>
+
+            <div className="bg-gold/5 border border-gold/20 rounded-lg p-6">
+              <p className="font-body text-white leading-relaxed italic">
+                "O mal só se desenvolve na criança quando plantado pelo adulto."
+              </p>
+              <p className="font-body text-sm text-gray-400 mt-3">
+                — Dr. Alécio Vidor
+              </p>
+            </div>
+          </section>
+
+          {/* What This Means */}
+          <section className="mb-16 border-l-4 border-gold pl-8">
+            <h3 className="font-display text-xl text-gold mb-4">
+              O Que Isso Significa Para Você
+            </h3>
+            
+            <p className="font-body text-gray-300 leading-relaxed mb-6">
+              Você não está aqui por acaso. Se seu filho está tendo dificuldades, é porque existe uma oportunidade real de transformação — não apenas para ele, mas para toda a sua família.
+            </p>
+
+            <p className="font-body text-gray-300 leading-relaxed">
+              Essa transformação começa em você. E não é uma culpa que você carrega — é um poder que você possui.
+            </p>
           </section>
 
           {/* Who This Is For */}
@@ -122,14 +138,49 @@ export default function PaisEFilhos() {
                 <span className="text-gold font-bold text-xl">✓</span>
                 <span className="font-body text-gray-300">Você quer resultados reais, não apenas mais uma tentativa que não vai funcionar</span>
               </li>
+              <li className="flex items-start gap-4">
+                <span className="text-gold font-bold text-xl">✓</span>
+                <span className="font-body text-gray-300">Você está pronto para fazer uma mudança profunda em si mesmo</span>
+              </li>
             </ul>
+          </section>
+
+          {/* The Transformation */}
+          <section className="mb-16">
+            <h2 className="font-display text-2xl text-gold mb-8">
+              A Transformação Começa com Você
+            </h2>
+
+            <div className="bg-gray-900/50 border border-gold/20 rounded-lg p-8 mb-8">
+              <p className="font-body text-gray-300 leading-relaxed mb-4">
+                Quando apontamos para uma responsabilidade do adulto de maior referência afetiva, <span className="text-gold font-semibold">não estamos imputando culpa</span>. Muito pelo contrário.
+              </p>
+
+              <p className="font-body text-gray-300 leading-relaxed">
+                Estamos oferecendo a você a <span className="text-gold font-semibold">oportunidade real de solucionar o problema</span>.
+              </p>
+            </div>
+
+            <div className="bg-gray-900/50 border border-gold/20 rounded-lg p-8">
+              <p className="font-body text-gray-300 leading-relaxed mb-6">
+                A Psicoterapia Ontopsicológica requer basicamente dois elementos de sua parte: humildade e coragem.
+              </p>
+
+              <p className="font-body text-gray-300 leading-relaxed mb-6">
+                Estar realmente disposto a olhar para dentro de si mesmo, sem medo do que vai encontrar.
+              </p>
+
+              <p className="font-body text-gray-300 leading-relaxed">
+                Os resultados valem cada passo dessa jornada.
+              </p>
+            </div>
           </section>
 
           {/* CTA Section */}
           <section className="mb-16">
             <div className="bg-gradient-to-r from-gold/10 to-gold/5 border-2 border-gold rounded-lg p-10 text-center">
               <h2 className="font-display text-3xl text-gold mb-4">
-                Pronto para uma mudança real?
+                Pronto para começar?
               </h2>
               
               <p className="font-body text-gray-300 mb-8 leading-relaxed">
@@ -153,23 +204,25 @@ export default function PaisEFilhos() {
             </div>
           </section>
 
-          {/* Trust Section */}
-          <section className="mb-16 text-center">
-            <h3 className="font-display text-lg text-gold mb-6">
+          {/* About Hans Horstmann */}
+          <section className="mb-16">
+            <h2 className="font-display text-2xl text-gold mb-8 text-center">
               Sobre Hans Horstmann
-            </h3>
+            </h2>
             
-            <p className="font-body text-gray-300 leading-relaxed mb-4">
-              Formado em <span className="text-gold font-semibold">Ontopsicologia</span> pela Antonio Meneghetti Faculdade, Hans trabalha com pais e filhos há anos, ajudando famílias a resolver problemas que pareciam impossíveis.
-            </p>
+            <div className="bg-gray-900/50 border border-gold/20 rounded-lg p-8">
+              <p className="font-body text-gray-300 leading-relaxed mb-4">
+                Possui graduação em <span className="text-gold font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), tendo atuado por 6 anos no ministério pastoral.
+              </p>
 
-            <p className="font-body text-gray-300 leading-relaxed">
-              Sua abordagem é baseada em ciência, não em teorias genéricas. Resultados comprovados.
-            </p>
+              <p className="font-body text-gray-300 leading-relaxed">
+                Graduação em <span className="text-gold font-semibold">Ontopsicologia</span> pela Antonio Meneghetti Faculdade (2019), atuando desde então como psicoterapeuta.
+              </p>
+            </div>
           </section>
 
           {/* Final CTA */}
-          <section className="text-center">
+          <section className="text-center mb-16">
             <a
               href={whatsappLink}
               target="_blank"
@@ -189,8 +242,11 @@ export default function PaisEFilhos() {
           <p className="font-body text-sm text-gray-400">
             © 2026 EIMÍ - Hans Horstmann. Todos os direitos reservados.
           </p>
-          <p className="font-body text-xs text-gray-500 mt-2">
-            Esta página foi criada especificamente para pais que buscam soluções reais.
+          <p className="font-body text-xs text-gray-500 mt-4">
+            Esta página foi criada especificamente para pais que buscam soluções reais baseadas na Ontopsicologia.
+          </p>
+          <p className="font-body text-xs text-gray-500 mt-3">
+            Conceitos e citações baseados na obra: VIDOR, Alécio. <span className="italic">Relação entre Pais e Filhos - a origem dos problemas</span>. Ontopsicológica Ed. Universitária, Recanto Maestro, 2014.
           </p>
         </div>
       </footer>
