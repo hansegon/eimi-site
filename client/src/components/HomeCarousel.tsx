@@ -109,31 +109,49 @@ export default function HomeCarousel() {
       {/* Conteúdo no Canto Inferior Esquerdo */}
       <div className="absolute bottom-12 left-12 z-20 max-w-md">
         <h2
-          className="text-4xl font-bold mb-2 transition-all duration-500"
+          className="text-4xl font-bold mb-2 transition-all duration-1000"
           style={{
             color: '#D4AF37',
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.5)',
             fontFamily: "'Playfair Display', serif",
             letterSpacing: '0.05em',
+            opacity: 1,
+            animation: 'fadeIn 1s ease-in-out',
           }}
         >
           {currentPageData.title}
         </h2>
         <p
-          className="text-sm font-light transition-all duration-500 italic"
+          className="text-sm font-light transition-all duration-1000 italic"
           style={{
             color: '#D4AF37',
             textShadow: '1px 1px 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.5)',
             fontFamily: "'Montserrat', sans-serif",
             letterSpacing: '0.02em',
+            opacity: 1,
+            animation: 'fadeIn 1.2s ease-in-out 0.2s both',
           }}
         >
           {currentPageData.subtitle}
         </p>
       </div>
 
+      {/* Animação CSS para fade-in */}
+      <style>{`
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: translateY(10px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
+
       {/* Indicador de Página Atual */}
-      <div className="absolute bottom-12 right-12 z-20 text-gold/70 text-sm font-light">
+      <div className="absolute bottom-12 right-12 z-20 text-gold/70 text-sm font-light" style={{ animation: 'fadeIn 1s ease-in-out' }}>
         {currentPage + 1} / {pages.length}
       </div>
     </section>
