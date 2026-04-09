@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, Instagram } from 'lucide-react';
 
 interface HeaderProps {
@@ -7,6 +7,16 @@ interface HeaderProps {
 
 export default function Header({ onNavigate }: HeaderProps) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const menuItems = [
     { label: 'INÍCIO', id: 'home' },
@@ -24,7 +34,7 @@ export default function Header({ onNavigate }: HeaderProps) {
   return (
     <>
       {/* Desktop Header - Tarja Horizontal */}
-      <header className="fixed top-6 left-0 right-0 bg-black-primary h-40 z-50 flex items-stretch px-0 shadow-lg">
+      <header className={`fixed left-0 right-0 bg-black-primary h-40 z-50 flex items-stretch px-0 shadow-lg transition-all duration-300 ${isScrolled ? 'top-0' : 'top-6'}`}>
         {/* Logo à Esquerda - Ocupando Toda a Altura */}
         <div className="flex items-center px-8">
           <button
