@@ -20,7 +20,7 @@ export default function Hans() {
             {/* Texto */}
             <div className="md:w-2/3">
               <p className="font-body text-lg text-gray-700 leading-relaxed mb-6">
-                Possui graduação em <span className="font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), tendo atuado por 6 anos no ministério pastoral.
+                Possui graduação em <span className="font-semibold">Teologia</span> pela Faculdade de Teologia da Igreja Evangélica de Confissão Luterana no Brasil (1985), tendo atuado por 7 anos no ministério pastoral.
               </p>
 
               <p className="font-body text-lg text-gray-700 leading-relaxed">
