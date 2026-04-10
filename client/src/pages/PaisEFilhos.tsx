@@ -22,7 +22,7 @@ export default function PaisEFilhos() {
       <header className="w-full bg-black-primary border-b border-gold/20 py-8">
         <div className="container max-w-4xl flex justify-center">
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
             alt="EIMÍ"
             className="h-64 w-auto object-contain"
           />
