@@ -42,7 +42,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             className="hover:opacity-80 transition-opacity"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/eimi_logo_completa_0316670c.png"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
               alt="EIMÍ - Centro de Terapia Ontopsicológica"
               className="h-32 w-auto object-contain"
             />
@@ -80,7 +80,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             className="hover:opacity-80 transition-opacity"
           >
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/EIMILOGO_clean_ace1925d.png"
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
               alt="EIMÍ - Centro de Terapia Ontopsicológica"
               className="h-32 w-auto object-contain"
             />
