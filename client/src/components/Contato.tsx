@@ -47,33 +47,33 @@ export default function Contato() {
   };
 
   return (
-    <section id="contato" className="w-full py-20 bg-black-primary">
-      <div className="container max-w-6xl">
-        <h2 className="font-display text-3xl text-gold mb-12 text-center">
+    <section id="contato" className="w-full py-12 md:py-20 bg-black-primary">
+      <div className="container max-w-6xl px-4 md:px-0">
+        <h2 className="font-display text-2xl md:text-3xl text-gold mb-8 md:mb-12 text-center">
           CONTATO
         </h2>
 
         {/* Layout com duas colunas: Informações à esquerda, Formulário à direita */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-12">
           
           {/* COLUNA ESQUERDA: Logo e Informações */}
           <div className="flex flex-col items-center">
             {/* Logo */}
-            <div className="flex justify-center mb-8">
+            <div className="flex justify-center mb-6 md:mb-8">
               <img
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
                 alt="EIMÍ"
-                className="h-56 w-auto object-contain"
+                className="h-40 md:h-56 w-auto object-contain"
               />
             </div>
 
             {/* Informações de Contato */}
-            <div className="flex flex-col space-y-6 w-full">
+            <div className="flex flex-col space-y-4 md:space-y-6 w-full">
               {/* Endereço */}
-              <div className="flex items-start gap-4">
-                <MapPin className="text-gold flex-shrink-0 mt-1" size={24} />
+              <div className="flex items-start gap-3 md:gap-4">
+                <MapPin className="text-gold flex-shrink-0 mt-1" size={20} />
                 <div>
-                  <p className="font-body text-gold leading-relaxed">
+                  <p className="font-body text-sm md:text-base text-gold leading-relaxed">
                     Rua Aubé, 777/12 - Boa Vista<br />
                     89205-000 Joinville - SC
                   </p>
@@ -81,14 +81,14 @@ export default function Contato() {
               </div>
 
               {/* WhatsApp */}
-              <div className="flex items-center gap-4">
-                <MessageCircle className="text-gold flex-shrink-0" size={24} />
+              <div className="flex items-center gap-3 md:gap-4">
+                <MessageCircle className="text-gold flex-shrink-0" size={20} />
                 <div>
                   <a
                     href="https://wa.me/5547992061060"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-body text-gold hover:opacity-80 transition-opacity"
+                    className="font-body text-sm md:text-base text-gold hover:opacity-80 transition-opacity"
                   >
                     (55 47) 992 061 060
                   </a>
@@ -96,12 +96,12 @@ export default function Contato() {
               </div>
 
               {/* E-mail */}
-              <div className="flex items-center gap-4">
-                <Mail className="text-gold flex-shrink-0" size={24} />
+              <div className="flex items-center gap-3 md:gap-4">
+                <Mail className="text-gold flex-shrink-0" size={20} />
                 <div>
                   <a
                     href="mailto:hans@eimi-psicoterapia.com.br"
-                    className="font-body text-gold hover:opacity-80 transition-opacity"
+                    className="font-body text-sm md:text-base text-gold hover:opacity-80 transition-opacity"
                   >
                     hans@eimi-psicoterapia.com.br
                   </a>
@@ -109,14 +109,14 @@ export default function Contato() {
               </div>
 
               {/* Instagram */}
-              <div className="flex items-center gap-4">
-                <Instagram className="text-gold flex-shrink-0" size={24} />
+              <div className="flex items-center gap-3 md:gap-4">
+                <Instagram className="text-gold flex-shrink-0" size={20} />
                 <div>
                   <a
                     href="https://instagram.com/eimi_psicoterapia"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-body text-gold hover:opacity-80 transition-opacity"
+                    className="font-body text-sm md:text-base text-gold hover:opacity-80 transition-opacity"
                   >
                     @eimi_psicoterapia
                   </a>

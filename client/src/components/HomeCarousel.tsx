@@ -60,10 +60,10 @@ export default function HomeCarousel() {
   return (
     <section
       id="home"
-      className="w-full h-screen bg-no-repeat relative pt-20 md:pt-0 overflow-hidden transition-all duration-700"
+      className="w-full h-screen bg-no-repeat relative pt-40 md:pt-0 overflow-hidden transition-all duration-700 bg-cover bg-center md:bg-fixed"
       style={{
         backgroundImage: `url(${HERO_IMAGE})`,
-        backgroundAttachment: 'fixed',
+        backgroundAttachment: 'auto',
         backgroundSize: 'cover',
         backgroundPosition: currentPageData.backgroundPositionY,
       }}
@@ -72,7 +72,7 @@ export default function HomeCarousel() {
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Indicadores (Bolinhas) - Parte Inferior Centro */}
-      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-40 flex gap-4">
+      <div className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2 z-40 flex gap-4">
         {pages.map((_, index) => (
           <button
             key={index}
@@ -107,9 +107,9 @@ export default function HomeCarousel() {
       </div>
 
       {/* Conteúdo no Canto Inferior Esquerdo */}
-      <div className="absolute bottom-12 left-12 z-20 max-w-md">
+      <div className="absolute bottom-8 md:bottom-12 left-4 md:left-12 z-20 max-w-xs md:max-w-md">
         <h2
-          className="text-4xl font-bold mb-2 transition-all duration-1000"
+          className="text-2xl md:text-4xl font-bold mb-2 transition-all duration-1000"
           style={{
             color: '#D4AF37',
             textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.5)',
@@ -122,7 +122,7 @@ export default function HomeCarousel() {
           {currentPageData.title}
         </h2>
         <p
-          className="text-sm font-light transition-all duration-1000 italic"
+          className="text-xs md:text-sm font-light transition-all duration-1000 italic"
           style={{
             color: '#D4AF37',
             textShadow: '1px 1px 3px rgba(0, 0, 0, 0.8), 0 0 6px rgba(0, 0, 0, 0.5)',
@@ -151,7 +151,7 @@ export default function HomeCarousel() {
       `}</style>
 
       {/* Indicador de Página Atual */}
-      <div className="absolute bottom-12 right-12 z-20 text-gold/70 text-sm font-light" style={{ animation: 'fadeIn 1s ease-in-out' }}>
+      <div className="absolute bottom-8 md:bottom-12 right-4 md:right-12 z-20 text-gold/70 text-xs md:text-sm font-light" style={{ animation: 'fadeIn 1s ease-in-out' }}>
         {currentPage + 1} / {pages.length}
       </div>
     </section>

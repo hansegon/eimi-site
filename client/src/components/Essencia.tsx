@@ -1,8 +1,8 @@
 export default function Essencia() {
   return (
-    <section id="essencia" className="w-full py-20 bg-white">
-      <div className="container max-w-4xl">
-        <h2 className="font-display text-3xl text-black-primary mb-12 text-center">
+    <section id="essencia" className="w-full py-12 md:py-20 bg-white">
+      <div className="container max-w-4xl px-4 md:px-0">
+        <h2 className="font-display text-2xl md:text-3xl text-black-primary mb-8 md:mb-12 text-center">
           ESSÊNCIA
         </h2>
 
@@ -44,8 +44,8 @@ export default function Essencia() {
 
         {/* Valores */}
         <div>
-          <h3 className="font-display text-2xl text-gold mb-6">Valores</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <h3 className="font-display text-xl md:text-2xl text-gold mb-4 md:mb-6">Valores</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             <div className="border-l-4 border-gold pl-6">
               <h4 className="font-display text-lg text-black-primary mb-2">Racionalidade</h4>
               <p className="font-body text-gray-700">A busca pela evidência objetiva.</p>
