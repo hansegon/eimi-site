@@ -34,7 +34,7 @@ export default function Header({ onNavigate }: HeaderProps) {
   return (
     <>
       {/* Desktop Header - Tarja Horizontal */}
-      <header className={`fixed left-0 right-0 bg-black-primary h-40 z-50 flex items-stretch px-0 shadow-lg transition-all duration-300 ${isScrolled ? 'top-0' : 'top-6'}`}>
+      <header className={`hidden md:flex fixed left-0 right-0 bg-black-primary h-40 z-50 items-stretch px-0 shadow-lg transition-all duration-300 ${isScrolled ? 'top-0' : 'top-6'}`}>
         {/* Logo à Esquerda - Ocupando Toda a Altura */}
         <div className="flex items-center px-8">
           <button
@@ -72,41 +72,55 @@ export default function Header({ onNavigate }: HeaderProps) {
         </nav>
       </header>
 
-      {/* Mobile Header */}
-      <header className="fixed top-4 left-0 right-0 bg-black-primary z-50 hidden flex-col items-center justify-center py-4 shadow-lg rounded-b-lg">
-        <div className="flex items-center justify-between w-full px-4 mb-2">
-          <button
-            onClick={() => handleNavigate('home')}
-            className="hover:opacity-80 transition-opacity"
-          >
-            <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
-              alt="EIMÍ - Centro de Terapia Ontopsicológica"
-              className="h-32 w-auto object-contain"
-            />
-          </button>
+      {/* Mobile Header com Menu Hambúrguer */}
+      <header className={`md:hidden fixed top-0 left-0 right-0 bg-black-primary z-50 flex items-center justify-between px-4 py-4 shadow-lg transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20'}`}>
+        {/* Logo */}
+        <button
+          onClick={() => handleNavigate('home')}
+          className="hover:opacity-80 transition-opacity flex-shrink-0"
+        >
+          <img
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
+            alt="EIMÍ - Centro de Terapia Ontopsicológica"
+            className={`w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-12' : 'h-16'}`}
+          />
+        </button>
 
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-gold hidden"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
+        {/* Menu Hambúrguer */}
+        <button
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          className="text-gold hover:opacity-70 transition-opacity flex-shrink-0"
+          aria-label="Toggle menu"
+        >
+          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
       </header>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <nav className="fixed top-40 left-0 right-0 bg-black-primary hidden z-40 flex-col gap-4 p-6">
-          {menuItems.map((item) => (
+        <nav className="md:hidden fixed top-20 left-0 right-0 bg-black-primary z-40 flex flex-col gap-0 shadow-lg animate-in fade-in duration-200">
+          {menuItems.map((item, index) => (
             <button
               key={item.id}
               onClick={() => handleNavigate(item.id)}
-              className="text-gold font-body text-sm font-semibold tracking-wider hover:opacity-70 transition-opacity text-left"
+              className={`text-gold font-body text-sm font-semibold tracking-wider hover:bg-gold/10 transition-colors text-left px-6 py-4 border-b border-gold/10 ${
+                index === menuItems.length - 1 ? '' : ''
+              }`}
             >
               {item.label}
             </button>
           ))}
+          
+          {/* Instagram Link in Mobile Menu */}
+          <a
+            href="https://instagram.com/eimi_psicoterapia"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gold font-body text-sm font-semibold tracking-wider hover:bg-gold/10 transition-colors px-6 py-4 flex items-center gap-2"
+          >
+            <Instagram size={18} />
+            Instagram
+          </a>
         </nav>
       )}
     </>
