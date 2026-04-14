@@ -98,7 +98,9 @@ export default function Header({ onNavigate }: HeaderProps) {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <nav className="md:hidden fixed top-28 left-0 right-0 bg-black-primary z-40 flex flex-col gap-0 shadow-lg animate-in fade-in duration-200 max-h-[calc(100vh-7rem)] overflow-y-auto">
+        <nav className={`md:hidden fixed left-0 right-0 bg-black-primary z-40 flex flex-col gap-0 shadow-lg animate-in fade-in duration-200 max-h-[calc(100vh-${isScrolled ? '5rem' : '7rem'})] overflow-y-auto transition-all duration-300`} style={{
+          top: isScrolled ? '5rem' : '7rem',
+        }}>
           {menuItems.map((item, index) => (
             <button
               key={item.id}
@@ -116,7 +118,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             href="https://instagram.com/eimi_psicoterapia"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gold font-body text-sm font-semibold tracking-wider hover:bg-gold/10 transition-colors px-6 py-4 flex items-center gap-2"
+            className="text-gold font-body text-sm font-semibold tracking-wider hover:bg-gold/10 transition-colors px-6 py-4 flex items-center gap-2 border-b border-gold/10"
           >
             <Instagram size={18} />
             Instagram
