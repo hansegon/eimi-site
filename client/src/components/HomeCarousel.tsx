@@ -107,7 +107,7 @@ export default function HomeCarousel() {
       </div>
 
       {/* Conteúdo no Canto Inferior Esquerdo */}
-      <div className="absolute bottom-8 md:bottom-12 left-4 md:left-12 z-20 max-w-xs md:max-w-md">
+      <div className="absolute bottom-24 md:bottom-12 left-4 md:left-12 z-20 max-w-xs md:max-w-md">
         <h2
           className="text-2xl md:text-4xl font-bold mb-2 transition-all duration-1000"
           style={{
@@ -151,7 +151,7 @@ export default function HomeCarousel() {
       `}</style>
 
       {/* Indicador de Página Atual */}
-      <div className="absolute bottom-8 md:bottom-12 right-4 md:right-12 z-20 text-gold/70 text-xs md:text-sm font-light" style={{ animation: 'fadeIn 1s ease-in-out' }}>
+      <div className="absolute bottom-6 md:bottom-12 right-4 md:right-12 z-20 text-gold/70 text-xs md:text-sm font-light" style={{ animation: 'fadeIn 1s ease-in-out' }}>
         {currentPage + 1} / {pages.length}
       </div>
     </section>

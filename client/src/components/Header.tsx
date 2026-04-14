@@ -73,7 +73,7 @@ export default function Header({ onNavigate }: HeaderProps) {
       </header>
 
       {/* Mobile Header com Menu Hambúrguer */}
-      <header className={`md:hidden fixed top-0 left-0 right-0 bg-black-primary z-50 flex items-center justify-between px-4 py-4 shadow-lg transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20'}`}>
+      <header className={`md:hidden fixed top-0 left-0 right-0 bg-black-primary z-50 flex items-center justify-between px-4 py-3 shadow-lg transition-all duration-300 ${isScrolled ? 'h-20' : 'h-28'}`}>
         {/* Logo */}
         <button
           onClick={() => handleNavigate('home')}
@@ -82,7 +82,7 @@ export default function Header({ onNavigate }: HeaderProps) {
           <img
             src="https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/WhatsAppImage2026-04-10at16.51.52_833cf2c1.jpeg"
             alt="EIMÍ - Centro de Terapia Ontopsicológica"
-            className={`w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-12' : 'h-16'}`}
+            className={`w-auto object-contain transition-all duration-300 ${isScrolled ? 'h-16' : 'h-24'}`}
           />
         </button>
 
@@ -98,7 +98,7 @@ export default function Header({ onNavigate }: HeaderProps) {
 
       {/* Mobile Menu Dropdown */}
       {isMenuOpen && (
-        <nav className="md:hidden fixed top-20 left-0 right-0 bg-black-primary z-40 flex flex-col gap-0 shadow-lg animate-in fade-in duration-200">
+        <nav className="md:hidden fixed top-28 left-0 right-0 bg-black-primary z-40 flex flex-col gap-0 shadow-lg animate-in fade-in duration-200 max-h-[calc(100vh-7rem)] overflow-y-auto">
           {menuItems.map((item, index) => (
             <button
               key={item.id}
