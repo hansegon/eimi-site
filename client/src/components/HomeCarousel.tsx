@@ -72,7 +72,7 @@ export default function HomeCarousel() {
       <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Indicadores (Bolinhas) - Parte Inferior Centro */}
-      <div className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2 z-40 flex gap-4">
+      <div className="absolute bottom-8 md:bottom-12 left-1/2 transform -translate-x-1/2 z-10 flex gap-4">
         {pages.map((_, index) => (
           <button
             key={index}
