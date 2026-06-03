@@ -60,12 +60,13 @@ export default function HomeCarousel() {
   return (
     <section
       id="home"
-      className="w-full h-screen bg-no-repeat relative pt-40 md:pt-0 overflow-hidden transition-all duration-700 bg-cover bg-center md:bg-fixed"
+      className="w-full h-screen bg-no-repeat relative pt-40 md:pt-0 overflow-hidden transition-all duration-700 bg-black-primary"
       style={{
         backgroundImage: `url(${HERO_IMAGE})`,
         backgroundAttachment: 'auto',
-        backgroundSize: 'cover',
-        backgroundPosition: currentPageData.backgroundPositionY,
+        backgroundSize: 'contain',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       {/* Overlay suave */}
