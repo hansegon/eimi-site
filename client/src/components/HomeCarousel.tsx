@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const HERO_IMAGE = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663465649811/hNgYBav8yhTUCKgPCFqVze/QuadroQuatroIlhas_2c2fc080.jpeg';
+const HERO_IMAGE = 'https://files.manuscdn.com/user_upload_by_module/session_file/310519663465649811/XdcFdJHIaijZLztS.jpeg';
 
 interface CarouselPage {
   id: number;
