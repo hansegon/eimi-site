@@ -15,19 +15,19 @@ const pages: CarouselPage[] = [
     id: 1,
     title: 'PSICOTERAPIA INDIVIDUAL',
     subtitle: '"Reencontro do verdadeiro ôntico pessoal"',
-    backgroundImage: HERO_IMAGE,
+    backgroundImage: '/manus-storage/pexels-joshuaworoniecki-19877487_6d51ff96.webp',
   },
   {
     id: 2,
     title: 'CONSULTORIA DE AUTENTICAÇÃO',
     subtitle: '"Recuperação da inteligência da alma em sentido laico e racional"',
-    backgroundImage: '/manus-storage/geniobrasiliano_09f58f4d.jpg',
+    backgroundImage: '/manus-storage/kolibrik-sequoia-274158_0f46fd5d.webp',
   },
   {
     id: 3,
     title: 'PSICOSSOMÁTICA',
     subtitle: '"Causa psíquica e efeito somático"',
-    backgroundImage: '/manus-storage/QuadroQuatroIlhas_caf453d3.jpeg',
+    backgroundImage: '/manus-storage/wallhaven-4g27k3_3840x2160_367e0b5b.webp',
   },
 ];
 

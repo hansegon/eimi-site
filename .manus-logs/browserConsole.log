@@ -197,3 +197,14 @@
 [2026-06-14T18:04:24.690Z] {"timestamp":1781460264066,"level":"DEBUG","args":["[vite] connected."],"stack":null}
 [2026-06-14T18:04:51.891Z] {"timestamp":1781460290911,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
 [2026-06-14T18:04:51.891Z] {"timestamp":1781460291251,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-14T18:06:11.358Z] {"timestamp":1781460370396,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-06-14T18:07:28.426Z] {"timestamp":1781460447460,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-14T18:07:28.426Z] {"timestamp":1781460447936,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-14T18:07:28.426Z] {"timestamp":1781460448627,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-14T18:14:57.164Z] {"timestamp":1781460896177,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-14T18:14:57.164Z] {"timestamp":1781460896668,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-14T18:14:57.164Z] {"timestamp":1781460897843,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-06-14T18:15:57.497Z] {"timestamp":1781460956528,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-14T18:15:57.497Z] {"timestamp":1781460957074,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-06-14T18:16:05.468Z] {"timestamp":1781460964486,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-06-14T18:16:05.468Z] {"timestamp":1781460964876,"level":"DEBUG","args":["[vite] connected."],"stack":null}
